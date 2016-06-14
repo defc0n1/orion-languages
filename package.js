@@ -34,5 +34,5 @@ Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
   api.use('joadr:orion-languages');
-  api.mainModule('orion-languages-tests.js');
+  //api.mainModule('orion-languages-tests.js');
 });
