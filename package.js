@@ -12,7 +12,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
-  api.use('ecmascript');
+  api.use('ecmascript@0.1.6');
   api.use('session');
   api.use('orionjs:core@1.8.0');
   api.use('orionjs:dictionary@1.8.0');
